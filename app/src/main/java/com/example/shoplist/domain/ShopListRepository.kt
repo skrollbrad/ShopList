@@ -11,6 +11,7 @@ interface ShopListRepository {
 
     fun getShopItem(shopItem: Int): ShopItem
 
+
     fun getShopList(): LiveData<List<ShopItem>>
 
 }
